@@ -1,47 +1,6 @@
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 300px;
-    padding-top: 7px;
-    width: 1.5cm;
-    height: 1.5cm;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.back{
-    height: 0.7cm;
-}
-  
-#myBtn:hover {
-    background-color: #b666d2;
-}
-
-
 body{
     margin: 0;
     padding: 0;     
-}
-
-header a{
-    color: black;
-    text-decoration: none;
-}
-
-header a:hover{
-    text-decoration: none;
-    transition: 0,1s;
-    color: #b666d2;
-    cursor: pointer;
 }
 
 /**********************/
@@ -67,7 +26,7 @@ header{
     height: 1.5cm;
 }
 
-.to{
+.titregras{
     font-family: montserrat-semibold, sans-serif;
     color: black;
     text-decoration: none;
@@ -91,12 +50,27 @@ header{
     font-weight: 100;
 }
    
-
 .cat{
     display: flex;  
     align-items: center;
     margin-right: 30px;
 }
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: none;
+    transition: 0,1s;
+    color: #b666d2;
+    cursor: pointer;
+}
+
+/**********************/
+/** Mentions légales **/
+/**********************/
 
 .blocktext {
     font-family: montserrat-regular, sans-serif;
@@ -175,13 +149,13 @@ footer{
     
 }
 
-
-
+.two{
+    padding-left: 5px;
+}
 
 .footer3 a{
     color: white;
 }
-
 
 .bas2{
  
@@ -189,8 +163,6 @@ footer{
     display: flex;
     align-items: center;
 }
-
-
 
 .bas3{
   
@@ -249,11 +221,27 @@ footer{
     font-style: normal;
     font-weight: 100;
 }
+
 .footer3{
     flex: 1;
     justify-content: center;
     padding-right: 30px;
     padding-left: 50px;
+}
+
+.rs{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.nomrs{
+    font-family: montserrat-light, sans-serif;
+    font-size: 11pt;
+    padding-bottom: 1px;
+    padding-left: 10px;
 }
 
 .mc{
@@ -262,17 +250,35 @@ footer{
     padding-left: 3px;
 }
 
-.r{
-    padding-top: 2px;
-    padding-bottom: 2px;
+/**********************/
+/**** Back to top *****/
+/**********************/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 300px;
+    padding-top: 7px;
+    width: 1.5cm;
+    height: 1.5cm;
     display: flex;
     align-items: center;
-    padding-left: 60px;
+    justify-content: center;
 }
 
-.lol{
-    font-family: montserrat-light, sans-serif;
-    font-size: 11pt;
-    padding-bottom: 1px;
-    padding-left: 10px;
+.back{
+    height: 0.7cm;
 }
+  
+#myBtn:hover {
+    background-color: #b666d2;
+}
+

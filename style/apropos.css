@@ -39,7 +39,7 @@ header{
     height: 1.5cm;
 }
 
-.to{
+.titregras{
     font-family: montserrat-semibold, sans-serif;
     color: black;
     text-decoration: none;
@@ -80,6 +80,10 @@ header{
     text-align: justify ;
     background-color: transparent;
 }
+
+/**********************/
+/***** Section 6 ******/
+/**********************/
 
 .section6{
     padding-top: 3cm;
@@ -147,13 +151,13 @@ footer{
     
 }
 
-
-
+.two{
+    padding-left: 5px;
+}
 
 .footer3 a{
     color: white;
 }
-
 
 .bas2{
  
@@ -161,8 +165,6 @@ footer{
     display: flex;
     align-items: center;
 }
-
-
 
 .bas3{
   
@@ -221,6 +223,7 @@ footer{
     font-style: normal;
     font-weight: 100;
 }
+
 .footer3{
     flex: 1;
     justify-content: center;
@@ -228,13 +231,7 @@ footer{
     padding-left: 50px;
 }
 
-.mc{
-    font-family: montserrat-semibold;
-    color: #b666d2;
-    padding-left: 3px;
-}
-
-.r{
+.rs{
     padding-top: 2px;
     padding-bottom: 2px;
     display: flex;
@@ -242,9 +239,16 @@ footer{
     padding-left: 60px;
 }
 
-.lol{
+.nomrs{
     font-family: montserrat-light, sans-serif;
     font-size: 11pt;
     padding-bottom: 1px;
     padding-left: 10px;
+}
+
+
+.mc{
+    font-family: montserrat-semibold;
+    color: #b666d2;
+    padding-left: 3px;
 }

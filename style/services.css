@@ -1,4 +1,3 @@
-
 body{
     margin: 0px;
     padding: 0px;
@@ -17,17 +16,9 @@ a:hover{
     cursor: pointer;
 }
 
-.rectangle a{
-    color: black;
-    text-decoration: none;
-}
-
-.rectangle a:hover{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-
+/**********************/
+/******* Header *******/
+/**********************/
 
 .logo{
     height: 1.3cm;
@@ -49,7 +40,7 @@ header{
     z-index: 1000;
 }
 
-.to{
+.titregras{
     font-family: montserrat-semibold, sans-serif;
     color: black;
     text-decoration: none;
@@ -73,11 +64,25 @@ header{
     font-weight: 100;
 }
    
-
 .cat{
     display: flex;  
     align-items: center;
     margin-right: 30px;
+}
+
+/**********************/
+/******* Slider *******/
+/**********************/
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1cm;
+    height: 65vh;
+    background-color: #f8f8f8;
+    padding-bottom: 2cm;
 }
 
 .section0{
@@ -110,15 +115,15 @@ header{
 
 }
 
+.rectangle a{
+    color: black;
+    text-decoration: none;
+}
 
-.section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1cm;
-    height: 65vh;
-    background-color: #f8f8f8;
-    padding-bottom: 2cm;
+.rectangle a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 p{
@@ -126,13 +131,6 @@ p{
     font-size: 12pt;
     text-align: justify;
 }
-
-#h3{
-    font-size: 16pt;
-}
-
-
-
 
 .s3t{
     text-align: center;
@@ -146,8 +144,6 @@ p{
     background: transparent;
     
 }
-
-
 
 .card{
     position: relative;
@@ -243,13 +239,13 @@ footer{
     
 }
 
-
-
+.two{
+    padding-left: 5px;
+}
 
 .footer3 a{
     color: white;
 }
-
 
 .bas2{
  
@@ -257,8 +253,6 @@ footer{
     display: flex;
     align-items: center;
 }
-
-
 
 .bas3{
   
@@ -317,6 +311,7 @@ footer{
     font-style: normal;
     font-weight: 100;
 }
+
 .footer3{
     flex: 1;
     justify-content: center;
@@ -324,13 +319,7 @@ footer{
     padding-left: 50px;
 }
 
-.mc{
-    font-family: montserrat-semibold;
-    color: #b666d2;
-    padding-left: 3px;
-}
-
-.r{
+.rs{
     padding-top: 2px;
     padding-bottom: 2px;
     display: flex;
@@ -338,9 +327,16 @@ footer{
     padding-left: 60px;
 }
 
-.lol{
+.nomrs{
     font-family: montserrat-light, sans-serif;
     font-size: 11pt;
     padding-bottom: 1px;
     padding-left: 10px;
+}
+
+
+.mc{
+    font-family: montserrat-semibold;
+    color: #b666d2;
+    padding-left: 3px;
 }
