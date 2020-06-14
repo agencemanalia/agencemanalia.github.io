@@ -340,3 +340,7 @@ footer{
     color: #b666d2;
     padding-left: 3px;
 }
+
+.text4 div, .text5 div{
+    padding-left: 4px;
+}

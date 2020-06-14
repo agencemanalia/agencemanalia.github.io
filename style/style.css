@@ -884,6 +884,9 @@ footer{
     padding-left: 3px;
 }
 
+.text4 div, .text5 div{
+    padding-left: 4px;
+}
 
 /**********************/
 /**** Back to top *****/
