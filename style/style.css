@@ -37,7 +37,8 @@
 
 body{
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    font-family: "montserrat"; 
 }
 
 header a{
@@ -342,9 +343,7 @@ header{
 }
 
 .v1{
-    
     text-align: center;
-
 }
 
  .blocktext {
@@ -525,22 +524,22 @@ header{
   }
   
   
-  .location-listing {
+  .porfolio-listing {
     position: relative;
   }
   
-  .location-image {
+  .porfolio-image {
     line-height: 0;
     overflow: hidden;
   }
   
-  .location-image img {
+  .porfolio-image img {
     filter: blur(0px);
     transition: filter 0.3s ease-in;
     transform: scale(1.1);
   }
   
-  .location-title {
+  .porfolio-title {
     font-size: 16pt;
     font-family: montserrat-semibold, sans-serif;
     text-decoration: none;
@@ -571,11 +570,11 @@ header{
   }
 
   
-  .location-listing:hover .location-title {
+  .porfolio-listing:hover .porfolio-title {
     opacity: 1;
   }
   
-  .location-listing:hover .location-image img {
+  .porfolio-listing:hover .porfolio-image img {
     filter: blur(2px);
   }
 
@@ -748,10 +747,10 @@ button{
   
   /* for touch screen devices */
   @media (hover: none) { 
-    .location-title {
+    .porfolio-title {
       opacity: 1;
     }
-    .location-image img {
+    .porfolio-image img {
       filter: blur(2px);
     }
   }
